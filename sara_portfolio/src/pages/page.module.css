@@ -1,0 +1,25 @@
+.title {
+    font-family: Calibri, bold;
+    font-size: 45px;
+}
+.paragraph {
+    font-family: Calibri;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.text {
+    width: 40%;
+    padding-right: 10px;
+}
+.image {
+    width: 50%;
+}
+.image img {
+    width: 70%;
+    height: auto;
+}
