@@ -20,7 +20,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: calc(100% - 40px); /* Adjust the width of the card */
+    width: calc(100% - 40px); 
     max-width: 1000px;
     height: 400px;
     margin: 0 auto;

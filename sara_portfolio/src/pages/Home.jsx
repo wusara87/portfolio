@@ -1,5 +1,6 @@
 import Style from "./page.module.css";
 
+// home component
 export default function Home() {
     return (
         <>

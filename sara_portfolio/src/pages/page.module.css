@@ -11,24 +11,24 @@
 }
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap if container width is reduced */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; 
+    justify-content: center; 
     align-items: center;
     padding: 120px;
 }
 .text {
     flex: 1; /* Take up remaining space */
-    max-width: 50%; /* Limit width to 50% of container */
-    margin-right: 20px; /* Adjust margin between text and image */
+    max-width: 50%;
+    margin-right: 20px; 
     margin-left: 120px;
 }
 .image {
     flex: 1; /* Take up remaining space */
-    max-width: 500px; /* Limit width to 30% of container */
-    margin-left: 20px; /* Adjust margin between text and image */
+    max-width: 500px;
+    margin-left: 20px; 
     margin-right: 120px;
 }
 .image img {
-    width: 100%; /* Ensure image fills its container */
+    width: 100%; 
     height: auto;
 }

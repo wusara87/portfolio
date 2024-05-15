@@ -3,7 +3,6 @@
 }
 body {
   margin: 0;
-  /* background-color: #1D2671; Fallback color */
   background: linear-gradient(to right, #93A5CF, #E4EfE9); /* Gradient */
   height: 100%;
 }
@@ -11,6 +10,8 @@ body {
   margin: 1rem;
   text-align: center;
 }
+
+/* styling for the navigation bar */
 .nav {
   background-color: #7091E6;
   color: white;
@@ -23,6 +24,8 @@ body {
 .title {
   font-size: 2.5rem;
 }
+
+/* styling for navigation links */
 .nav a {
   color: inherit;
   text-decoration: none;
@@ -31,6 +34,8 @@ body {
   align-items: center;
   padding: 1rem;
 }
+
+/* styling for navigation list */
 .nav ul {
   padding: 0;
   margin: 0;
@@ -38,6 +43,8 @@ body {
   display: flex;
   gap: 0.25rem;
 }
+
+/* hover effect for navigation list items */
 .nav li:hover {
   background-color: #8697C4;
 }

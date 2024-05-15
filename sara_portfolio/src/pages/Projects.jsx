@@ -3,6 +3,7 @@ import canto from "/canto.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
+//array of project objects
 const projects = [
     {
         title: 'CantoConnect',
@@ -14,6 +15,7 @@ const projects = [
     }
 ]
 
+// project component
 export default function Projects() {
     return (
         <div className={Style.container}>

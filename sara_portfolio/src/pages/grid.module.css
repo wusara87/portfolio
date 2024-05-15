@@ -6,7 +6,7 @@
   
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
@@ -28,13 +28,13 @@
     margin-top: 10px;
 }
 .description {
-    font-size: 14px; /* Adjust description size */
+    font-size: 14px; 
     margin-top: 10px;
     color: #666;
-    text-align: left; /* Align descriptions to the left */
-    display: block; /* Display descriptions as blocks */
-    padding-left: 10px; /* Add left padding for better readability */
-    width: 200px; /* Set a fixed width for the description paragraphs */
-    word-wrap: break-word; /* Ensure long words wrap within the width */
+    text-align: left; 
+    display: block; 
+    padding-left: 10px; 
+    width: 200px; 
+    word-wrap: break-word; 
 }
   

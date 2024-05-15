@@ -4,6 +4,7 @@ import Box from "./box.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
+// contact page component
 export default function ContactPage() {
     return (
         <div className={Style.container}>

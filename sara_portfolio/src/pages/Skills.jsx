@@ -2,6 +2,7 @@ import Style from "./grid.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faGlobe, faBrain, faComments, faClock } from '@fortawesome/free-solid-svg-icons';
 
+// array of skills with name, icon, and description
 const skills = [
     { 
         name: 'HTML/CSS', 
@@ -35,6 +36,7 @@ const skills = [
     },
 ];
 
+// skills component
 export default function Skills() {
     return (
         <>
