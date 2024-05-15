@@ -45,7 +45,7 @@
     flex-wrap: wrap; /* Allow items to wrap if container width is reduced */
     justify-content: center; /* Center items horizontally */
     align-items: center;
-    padding: 60px;
+    padding: 120px;
 }
 .text {
     flex: 1; /* Take up remaining space */
