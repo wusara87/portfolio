@@ -31,7 +31,7 @@
     max-width: 600px;
     height: auto; */
     flex: 1; /* Take up remaining space */
-    max-width: 50%; /* Limit width to 50% of container */
+    max-width: 30%; /* Limit width to 50% of container */
     padding-left: 10px; /* Add spacing between text and image */
 }
 .image img {
