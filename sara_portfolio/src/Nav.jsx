@@ -5,6 +5,7 @@ export default function Nav() {
     {/* <img className="icon" src="/icon.png" alt="icon" /> */}
     <Link to="/" className="title">Sara Wu</Link>
     <ul>
+      <CustomLink to="/"> Home</CustomLink>
       <CustomLink to="/skills">Skills</CustomLink>
       <CustomLink to="/projects">Projects</CustomLink>
       <CustomLink to="/contact">Contact Info</CustomLink>

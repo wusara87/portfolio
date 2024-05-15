@@ -5,6 +5,7 @@
 .paragraph {
     font-family: Calibri;
     font-size: 20px;
+    text-align: left;
 }
 .container {
     display: flex;
@@ -17,7 +18,9 @@
     padding-right: 10px;
 }
 .image {
-    width: 50%;
+    width: 500px;
+    max-width: 600px;
+    height: auto;
 }
 .image img {
     width: 70%;
