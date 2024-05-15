@@ -1,0 +1,39 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.icon {
+    font-size: 36px;
+}
+.name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.description {
+    font-size: 14px; /* Adjust description size */
+    margin-top: 10px;
+    color: #666;
+    text-align: left; /* Align descriptions to the left */
+    display: block; /* Display descriptions as blocks */
+    padding-left: 10px; /* Add left padding for better readability */
+    width: 200px; /* Set a fixed width for the description paragraphs */
+    word-wrap: break-word; /* Ensure long words wrap within the width */
+}
+  

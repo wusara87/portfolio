@@ -1,0 +1,76 @@
+.container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.projectCard {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(100% - 40px); /* Adjust the width of the card */
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.projectImage {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.projectInfo {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.projectDescription {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.projectTechnologies {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.projectLink {
+    margin-left: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.projectLink:hover {
+    color: #007bff;
+}
+
+
