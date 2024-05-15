@@ -55,7 +55,7 @@
 }
 .image {
     flex: 1; /* Take up remaining space */
-    max-width: 300px; /* Limit width to 30% of container */
+    max-width: 500px; /* Limit width to 30% of container */
     margin-left: 20px; /* Adjust margin between text and image */
     margin-right: 70px;
 }
