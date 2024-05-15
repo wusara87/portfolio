@@ -38,9 +38,6 @@ body {
   display: flex;
   gap: 0.25rem;
 }
-/* .nav li.active {
-  background-color: #8697C4;
-} */
 .nav li:hover {
   background-color: #8697C4;
 }

@@ -7,12 +7,9 @@
     font-family: Calibri;
     font-size: 20px;
     text-align: left;
+    max-width: 500px;
 }
 .container {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px; */
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap if container width is reduced */
     justify-content: center; /* Center items horizontally */
@@ -20,21 +17,14 @@
     padding: 60px;
 }
 .text {
-    /* width: 50%;
-    padding-right: 10px; */
     flex: 1; /* Take up remaining space */
-    padding-right: 10px;
     max-width: 50%; /* Limit width to 50% of container */
 }
 .image {
-    /* width: 500px;
-    max-width: 600px;
-    height: auto; */
     flex: 1; /* Take up remaining space */
     max-width: 30%; /* Limit width to 50% of container */
-    padding-left: 10px; /* Add spacing between text and image */
 }
 .image img {
-    width: 70%;
+    width: 300px;
     height: auto;
 }

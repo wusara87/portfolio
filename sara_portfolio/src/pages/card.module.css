@@ -24,6 +24,8 @@
     max-width: 1000px;
     height: 400px;
     margin: 0 auto;
+    box-shadow: 13px 13px lightblue;
+
 }
 
 .projectImage {

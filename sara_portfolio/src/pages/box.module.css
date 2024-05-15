@@ -1,0 +1,10 @@
+.box {
+    background-color: white;
+    text-align: center;
+    border: 2px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+    width: 500px;
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 13px 13px lightblue;
+    margin: 0 auto;
+}

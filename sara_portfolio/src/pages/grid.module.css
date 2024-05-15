@@ -18,6 +18,7 @@
     border-radius: 10px;
     background-color: #f9f9f9;
     text-align: center;
+    box-shadow: 10px 10px lightblue;
 }
 .icon {
     font-size: 36px;
