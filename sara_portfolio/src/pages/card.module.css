@@ -21,8 +21,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: calc(100% - 40px); /* Adjust the width of the card */
-    max-width: 1500px;
-    height: 500px;
+    max-width: 1000px;
+    height: 400px;
     margin: 0 auto;
     box-shadow: 13px 13px lightblue;
 
