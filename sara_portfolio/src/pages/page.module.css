@@ -1,6 +1,7 @@
 .title {
     font-family: Calibri, bold;
     font-size: 45px;
+    text-align: left;
 }
 .paragraph {
     font-family: Calibri;
@@ -8,19 +9,30 @@
     text-align: left;
 }
 .container {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 60px; */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap if container width is reduced */
+    justify-content: center; /* Center items horizontally */
     align-items: center;
     padding: 60px;
 }
 .text {
-    width: 40%;
+    /* width: 50%;
+    padding-right: 10px; */
+    flex: 1; /* Take up remaining space */
     padding-right: 10px;
+    max-width: 50%; /* Limit width to 50% of container */
 }
 .image {
-    width: 500px;
+    /* width: 500px;
     max-width: 600px;
-    height: auto;
+    height: auto; */
+    flex: 1; /* Take up remaining space */
+    max-width: 50%; /* Limit width to 50% of container */
+    padding-left: 10px; /* Add spacing between text and image */
 }
 .image img {
     width: 70%;
